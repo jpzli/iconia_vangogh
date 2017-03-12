@@ -1,0 +1,12 @@
+# TWRP fstab file
+#<mnt_point>  		  	<FS_type> 			<src>               			 
+/boot					emmc				/dev/block/mmcblk0p2	
+/recovery				emmc				/dev/block/mmcblk0p1
+/flexrom				ext4				/dev/block/mmcblk0p6
+/system					ext4				/dev/block/mmcblk0p3
+/cache					ext4				/dev/block/mmcblk0p4
+/data					auto				/dev/block/mmcblk0p8
+/sdcard0				vfat				/dev/block/mmcblk1p1	flags=display="Micro SDcard";storage;wipeingui;removable
+# vold-managed volumes ("block device" is actually a sysfs devpath)
+#/storage/sdcard1		auto				/devices/platform/sdhci-tegra.2/mmc_host/mmc1  	defaults;voldmanaged=sdcard:auto
+#/storage/usbdisk0		auto				/devices/platform/tegra-ehci.2   				defaults;voldmanaged=sda:auto

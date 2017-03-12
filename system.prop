@@ -1,0 +1,3 @@
+persist.sys.usb.config=mtp,adb
+ro.sf.lcd_density=160
+ro.setupwizard.mode=OPTIONAL
