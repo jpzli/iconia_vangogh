@@ -1,4 +1,9 @@
 <mixer>
+  <ctl name="Right Input PGA Common Mode Switch" value="1" />
+  <ctl name="Left Input PGA Common Mode Switch" value="1" />
+  <ctl name ="Right Input PGA Switch" value="1" />
+  <ctl name ="Left Input PGA Switch" value="1" />
+
   <!-- These are the initial mixer settings -->
   <ctl name="Speaker Switch" value="1" />
   <ctl name="Int Spk Switch" value="1" />
